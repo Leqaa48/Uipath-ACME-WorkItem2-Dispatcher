@@ -91,13 +91,13 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1156,671.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1452.0000000000002,671.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart sap:VirtualizedContainerService.HintSize="600,648" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart sap:VirtualizedContainerService.HintSize="1468.8000000000002,597.6" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="DTAllWorkItems" />
         <Variable x:TypeArguments="x:String" Name="strLoginFlage" />
@@ -156,7 +156,7 @@
                     <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:LogMessage DisplayName="End Of Process" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;Process Ended&quot;]">
+                <ui:LogMessage DisplayName="End Of Process" sap:VirtualizedContainerService.HintSize="334.4,142.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;Process Ended...&quot;]">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -171,7 +171,7 @@
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <av:Point x:Key="ShapeLocation">565,745</av:Point>
                     <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
-                    <av:PointCollection x:Key="ConnectorLocation">620.2,815.4 620.2,845.4000000000001 620,845.4000000000001 620,860</av:PointCollection>
+                    <av:PointCollection x:Key="ConnectorLocation">620.2,815.4 620.2,845.4 620,845.4 620,860</av:PointCollection>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ACME_Login - Invoke Workflow File (ACME_WebApplication\ACME_Login.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="ACME_WebApplication\ACME_Login.xaml">
@@ -194,7 +194,7 @@
                         <av:Point x:Key="ShapeLocation">590,860</av:Point>
                         <av:Size x:Key="ShapeSize">60,60</av:Size>
                         <av:PointCollection x:Key="TrueConnector">650,890 680,890 680,890.2 775,890.2</av:PointCollection>
-                        <av:PointCollection x:Key="FalseConnector">620,920 620,949.9999999999999 620.2,949.9999999999999 620.2,975</av:PointCollection>
+                        <av:PointCollection x:Key="FalseConnector">620,920 620,950 620.2,950 620.2,975</av:PointCollection>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <FlowDecision.True>
@@ -335,7 +335,7 @@
                 <av:PointCollection x:Key="ConnectorLocation">620.2,445.4 620.2,505</av:PointCollection>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="KillAllUsedApplications - Invoke Workflow File (AppControl\KillAllUsedApplications.xaml)" sap:VirtualizedContainerService.HintSize="336.8,144" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="AppControl\KillAllUsedApplications.xaml">
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="KillAllUsedApplications - Invoke Workflow File (AppControl\KillAllUsedApplications.xaml)" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="AppControl\KillAllUsedApplications.xaml">
               <ui:InvokeWorkflowFile.Arguments>
                 <InArgument x:TypeArguments="s:String[]" x:Key="in_arrAppProcessNames">[{"msedge","ACME-System3"}]</InArgument>
               </ui:InvokeWorkflowFile.Arguments>
